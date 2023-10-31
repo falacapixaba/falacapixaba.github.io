@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Fala Capixaba!</title>
+</head>
+<body>
+    <div id="div1" class="box"><img id="logo" src="logo_sem_fundo_falacapixaba.png" alt="logo"><div id="caixa_de_texto">Denúncias: Saúde pública,
+        Saneamento básico precário, Serviços públicos em geral, Promessas não cumpridas, Descaso com a população, etc...
+       </div></div>
+    <div id="div2" class="box">
+        <div class="base_formulario">
+        <form action="processar_formulario.php" method="POST">
+        <label for="nome"></label>
+        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome" >
+
+        <label for="nome"></label>
+        <select id="nome" name="nome" required>
+            <option value="" disabled selected>Selecione um Bairro</option>
+            <option value="Colinalaranjeiras">Colina de Laranjeiras</option>
+            <option value="laranjeirasvelha">Laranjeiras velha</option>
+            <option value="feurosa">Feu rosa</option>
+            <option value="barcelona">Barcelona</option>
+        </select>
+
+        <label for="denuncia"></label>
+        <input type="text" id="denuncia" name="denuncia" required placeholder="Escreva aqui..." >
+
+        <input type="submit" value="Enviar Denúncia">
+    </form></div>
+        </div>
+    <div id="div3" class="box"><div class="texto_box">
+        As denúncias são feitas de forma anônima e passarão por uma análise inicial antes de serem 
+        sujeitas a fiscalização. Caso sejam identificadas múltiplas denúncias provenientes do mesmo 
+        endereço IP, medidas de bloqueio poderão ser aplicadas.</div>
+        <div class="redes">
+            <img class="wh"   src="whatsapp_logo.avif" alt="whatsapp_logo">
+            <img class="wh"    src="instagram_logo.avif" alt="instagram_logo">
+            <img class="wh"    src="email_logo.png" alt="email_logo"></div></div>
+        </div>
+    
+</body>
+</html>
