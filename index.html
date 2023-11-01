@@ -10,15 +10,18 @@
 <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@700&family=Open+Sans:wght@600&family=Victor+Mono:wght@300&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div id="div1" class="box"><img id="logo" src="logo_sem_fundo_falacapixaba.png" alt="logo"><div id="caixa_de_texto"><h1 id="titulo">Portal de denúncias</h1>Saúde pública,
+    <div id="div1" class="box"><img id="logo" src="logo_sem_fundo_falacapixaba.png" alt="logo"><div id="caixa_de_texto"><h1 id="titulo">Portal de Denúncias</h1>Saúde pública,
         Saneamento básico precário, Serviços públicos em geral, Promessas não cumpridas, Descaso com a população, etc...
        </div></div>
     <div id="div2" class="box">
         <div class="base_formulario">
         <form action="processar_formulario.php" method="POST">
-        <label for="nome"></label>
-        <input type="text" id="nome" name="nome" required placeholder="Digite seu nome" >
+        
 
+       
+            
+        <label for="denuncia"></label>
+        <input type="text" id="denuncia" name="denuncia" required placeholder="Escreva aqui..." >
         <label for="nome"></label>
         <select id="nome" name="nome" required>
             <option value="" disabled selected>Selecione um Bairro</option>
@@ -27,10 +30,6 @@
             <option value="feurosa">Feu rosa</option>
             <option value="barcelona">Barcelona</option>
         </select>
-
-        <label for="denuncia"></label>
-        <input type="text" id="denuncia" name="denuncia" required placeholder="Escreva aqui..." >
-
         <input type="submit" value="Enviar Denúncia">
     </form></div>
         </div>
