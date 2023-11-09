@@ -1,4 +1,7 @@
 
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap');
+
+
 
 body{
     
@@ -48,6 +51,7 @@ body{
 }
 
 #caixa_de_texto{
+    
     font-family: 'Victor Mono', monospace;
     font-size: 110%;
     display: flex;
@@ -68,21 +72,80 @@ body{
     justify-content: center;
     
 }
+.base_base{
+    text-align: center;
+    background-color: rgb(85, 85, 80);
+    width: 100%;
+    height: 10px;
 
+}
+
+#imgseg{
+   
+    width: 15%;
+
+}
+
+#text1{
+    margin: 2%;
+    font-family: 'Oswald', sans-serif;
+    margin-top: -0.6%;
+    font-size: 120%;
+    text-align: center;
+    
+}
+
+/*visibility*/
 .base_formulario{
-    
-    
+
+    border-radius: 20px 20px 20px 20px;
+    background-color: #ebe8e8;
+    box-shadow: 0px 4px 8px rgba(7, 5, 2, 0.7);
     width: 70%;
     
 
 }
-
+/*visibility*/
 #denuncia{
+    margin: 1%;
+    visibility: hidden;
     font-family: 'Victor Mono', monospace;
     height: 180px;
     width: 100%;
     box-shadow: 5px 5px 10px rgba(34, 34, 33, 0.2);
     
+    
+}
+/*visibility*/
+
+#bairro{
+    visibility: hidden;
+
+}
+.submit{
+    
+    width: 30%;
+    height: 60%;
+    
+    text-align: center;
+    
+}
+
+#sub_base{
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    
+
+}
+#dede{
+    text-align: center;
+}
+
+#FAZER_DENUNCIA{
     
 }
 
@@ -238,6 +301,16 @@ body{
 
 @media (min-width: 500px) and (max-width: 649px) {
 
+    #dede{
+        
+        text-align: center;
+    }
+    
+    #FAZER_DENUNCIA{
+        margin-top: 5%;
+        
+    }
+
     #div1{
         margin-top: 2%;
         width: 95%;
@@ -246,6 +319,19 @@ body{
         display: flex;
         align-items: center;
     
+    }
+    #sub_base{
+        margin-top: -11%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 50px;
+       
+    
+    }
+    #imgseg{
+        width: 25%;
     }
     .redes{
         margin-top: 26%;
@@ -257,6 +343,7 @@ body{
     }
     
     .texto_box{
+        
         font-family: 'Victor Mono', monospace;
         font-size: 70%;
         font-weight: bold;
@@ -266,6 +353,7 @@ body{
         
     }
     #caixa_de_texto{
+        visibility: hidden;
         font-family: 'Victor Mono', monospace;
         font-size: 80%;
         display: flex;
@@ -280,6 +368,12 @@ body{
         position: absolute;
         font-size: 170%;
         margin-top: -15%;
+    }
+    #text1{
+        margin-top: 0;
+        font-size: 110%;
+        text-align: center;
+        
     }
 
 
@@ -365,7 +459,7 @@ body{
 #titulo{
     
     text-align: center;
-    margin-left: 2%;
+    margin-left: 11%;
     font-size: 170%;
     margin-top: -49%;
 }
@@ -396,8 +490,33 @@ body{
 }
 
 .submit{
-    margin-top: 5%;
+    
+   
+    height: 50%;
+
+    text-align: center;
+    
 }
 
+#sub_base{
+    margin-top: -12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    
+
+}
+#imgseg{
+    width: 20%;
+}
+
+#text1{
+    margin-top: 0;
+    font-size: 110%;
+    text-align: center;
+    
+}
     
 }
