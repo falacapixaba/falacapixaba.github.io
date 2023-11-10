@@ -132,7 +132,7 @@ body{
 }
 
 #sub_base{
-    text-decoration: none;
+    
     display: flex;
     justify-content: center;
     align-items: center;
@@ -505,6 +505,148 @@ body{
     align-items: center;
     text-align: center;
     height: 50px;
+    
+
+}
+#imgseg{
+    width: 20%;
+}
+
+#text1{
+    margin-top: 0;
+    font-size: 110%;
+    text-align: center;
+    
+}
+    
+}
+
+
+
+@media (max-width: 400px) {
+
+
+
+    body,html{
+        text-align: center;
+        width: 100%;
+        
+    }
+
+
+    #div1{
+        margin-top: 5%;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        
+    
+    }
+    
+    
+    #div2{
+        height: 90vh;
+        width: 95%;
+        
+        
+    }
+    
+    #div3{
+        width: 95%;
+        background-color: rgb(173, 41, 140);
+        
+    }
+
+  
+#caixa_de_texto{
+    
+    text-align: center;
+    position: absolute;
+    margin-top: 86%;
+    font-size: 70%;
+    margin-left: 1%;
+    
+    width: 60%;
+    height: 180px;
+    
+}
+
+.texto_box{
+    
+    font-size: 65%;
+    text-align: center;
+    width: 90%;
+    margin: 2%;
+    
+}
+
+#logo{
+    
+    
+    margin-left: 0%;
+    width: 40%;
+
+}
+.redes{
+    
+    margin-top: 40%;
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    
+    
+}
+    
+#titulo{
+    
+    text-align: center;
+    margin-left: 2%;
+    font-size: 170%;
+    margin-top: -49%;
+}
+
+.wh{
+    margin: 1%;
+    width:8%;
+
+}
+
+.base_formulario{
+    
+    
+    width: 80%;
+    
+    
+
+}
+
+#denuncia{
+    font-family: 'Victor Mono', monospace;
+    height: 180px;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(34, 34, 33, 0.2);
+   
+    
+    
+}
+
+.submit{
+    
+   width: 50%;
+    height: 50%;
+
+    text-align: center;
+    
+}
+
+#sub_base{
+    margin-top: -12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    
     
 
 }
