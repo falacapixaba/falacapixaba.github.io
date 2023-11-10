@@ -124,6 +124,7 @@ body{
 
 }
 .submit{
+    color: #000000;
     background-color: rgb(251, 255, 0);
     width: 40%;
     height: 60%;
