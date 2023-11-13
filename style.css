@@ -669,7 +669,7 @@ body{
     
     
     margin-left: 0%;
-    width: 40%;
+    width: 50%;
 
 }
 .redes{
@@ -920,6 +920,173 @@ body{
 
 }
 
+
+    
+}
+
+
+@media (min-width: 200px) and (max-width: 373px) {
+
+
+
+    body,html{
+        text-align: center;
+        width: 100%;
+        
+    }
+
+
+    #div1{
+        margin-top: 5%;
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        
+    
+    }
+    
+    
+    #div2{
+        height: 90vh;
+        width: 95%;
+        
+        
+    }
+    
+    #div3{
+        width: 95%;
+        background-color: rgb(173, 41, 140);
+        
+    }
+
+  
+#caixa_de_texto{
+    
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    margin-top: 86%;
+    font-size: 45%;
+    
+    
+    width: 60%;
+    height: 180px;
+    
+}
+
+
+.texto_box{
+    
+    font-size: 50%;
+    text-align: center;
+    width: 90%;
+    margin: 2%;
+    
+}
+
+#logo{
+    
+    
+    margin-left: 0%;
+    width: 50%;
+
+}
+.redes{
+    
+    margin-top: 40%;
+    position: absolute;
+    text-align: center;
+    width: 80%;
+    
+    
+}
+    
+#titulo{
+    
+    text-align: center;
+   
+    font-size: 170%;
+    margin-top: -49%;
+}
+
+.h4{
+    
+    text-align: center;
+    
+}
+
+.wh{
+    margin: 1%;
+    width:8%;
+
+}
+
+.base_formulario{
+    
+    margin-top: 15%;
+    width: 30%;
+    
+    
+
+}
+
+#denuncia{
+   
+    font-family: 'Victor Mono', monospace;
+    height: 180px;
+    width: 100%;
+    box-shadow: 5px 5px 10px rgba(34, 34, 33, 0.2);
+   
+    
+    
+}
+
+.submit{
+    
+   width: 40%;
+    height: 50%;
+
+    text-align: center;
+    
+}
+
+#sub_base{
+    margin-top: -12%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    
+    
+
+}
+#imgseg{
+    width: 20%;
+}
+
+#text1{
+    margin-top: 0;
+    font-size: 95%;
+    text-align: center;
+    
+}
+
+.base_formulario{
+    margin-top: 40%;
+    border-radius: 20px 20px 20px 20px;
+    background: linear-gradient(to right, #f8f6f7 ,#b4b8b9);
+    
+    width: 83%;
+    
+
+}
+
+#FAZER_DENUNCIA{
+    margin-top: 15%;
+    font-size: 50%;
+
+}
 
     
 }
